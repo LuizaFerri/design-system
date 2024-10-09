@@ -1,6 +1,5 @@
-import React from 'react';
 
-import { Button } from './Button';
+import { Button } from '@ignite-ui/react';
 import './header.css';
 
 type User = {
