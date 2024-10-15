@@ -10,6 +10,12 @@ export default {
 export const Primary: StoryObj<ButtonProps> = {}
 export const Big: StoryObj<ButtonProps> = {
   args: {
+    size: 'big',
+  },
+}
+
+export const Small: StoryObj<ButtonProps> = {
+  args: {
     size: 'small',
   },
 }
